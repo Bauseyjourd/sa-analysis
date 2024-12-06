@@ -12,6 +12,9 @@ import java.util.List;
 public class saControlleur {
     @GetMapping
     public List<Object> search() {
-        return List.of(new Sa(1,"Gonzalez le fort",1));
+        return List.of(new Sa(1,"Gonzalez le fort",1),
+                new Sa(2,"Gonzalez le fort GITHUB",0)
+
+        );
     }
 }
